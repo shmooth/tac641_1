@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2sDjALbaEeiY8dopxs2xuw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2sDjAbbaEeiY8dopxs2xuw" comment="" name="s3_filepath" prompt="s3_filepath?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjArbaEeiY8dopxs2xuw" comment="" name="s3_parquetpath" prompt="s3_parquetpath?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjA7baEeiY8dopxs2xuw" comment="" name="source_file_name" prompt="source_file_name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjBLbaEeiY8dopxs2xuw" comment="" name="s3_access_key" prompt="s3_access_key?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjBbbaEeiY8dopxs2xuw" comment="" name="s3_secret_key" prompt="s3_secret_key?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_2sDjBrbaEeiY8dopxs2xuw" comment="" name="s3_bucket" prompt="s3_bucket?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjB7baEeiY8dopxs2xuw" comment="" name="namenode_uri" prompt="namenode_uri?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjCLbaEeiY8dopxs2xuw" comment="" name="partitions_folder" prompt="partitions_folder?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sDjCbbaEeiY8dopxs2xuw" comment="" name="partitions_filename" prompt="partitions_filename?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

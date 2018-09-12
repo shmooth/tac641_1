@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2r5K8LbaEeiY8dopxs2xuw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2r5yALbaEeiY8dopxs2xuw" comment="" name="emr_resourcemanager" prompt="emr_resourcemanager?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yAbbaEeiY8dopxs2xuw" comment="" name="emr_resourcemanager_scheduler" prompt="emr_resourcemanager_scheduler?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yArbaEeiY8dopxs2xuw" comment="" name="emr_jobhistory" prompt="emr_jobhistory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yA7baEeiY8dopxs2xuw" comment="" name="emr_stagingdirectory" prompt="emr_stagingdirectory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yBLbaEeiY8dopxs2xuw" comment="" name="emr_username" prompt="emr_username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yBbbaEeiY8dopxs2xuw" comment="" name="s3_endpoint" prompt="s3_endpoint?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yBrbaEeiY8dopxs2xuw" comment="" name="hdfs_encryptionkeyprovider" prompt="hdfs_encryptionkeyprovider?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yB7baEeiY8dopxs2xuw" comment="" name="hdfs_tempfolder" prompt="hdfs_tempfolder?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yCLbaEeiY8dopxs2xuw" comment="" name="spark_scratchdirectory" prompt="spark_scratchdirectory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yCbbaEeiY8dopxs2xuw" comment="" name="s3_tempfolder" prompt="s3_tempfolder?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yCrbaEeiY8dopxs2xuw" comment="" name="file_input_delimiter" prompt="file_input_delimiter?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yC7baEeiY8dopxs2xuw" comment="" name="file_output_delimiter" prompt="file_output_delimiter?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yDLbaEeiY8dopxs2xuw" comment="" name="spark_executor_memory" prompt="spark_executor_memory?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yDbbaEeiY8dopxs2xuw" comment="" name="spark_executor_memory_overhead" prompt="spark_executor_memory_overhead?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yDrbaEeiY8dopxs2xuw" comment="" name="spark_cores_executor" prompt="spark_cores_executor?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yD7baEeiY8dopxs2xuw" comment="" name="spark_executorlogs_timeinterval" prompt="spark_executorlogs_timeinterval?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2r5yELbaEeiY8dopxs2xuw" comment="" name="spark_driver_memory" prompt="spark_driver_memory?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

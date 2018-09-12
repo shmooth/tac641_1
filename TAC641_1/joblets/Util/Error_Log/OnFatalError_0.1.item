@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
+  <model:JobletProcess defaultContext="local" jobType="Standard">
+    <context confirmationNeeded="false" name="qa">
+      <contextParameter comment="" name="ConfDir" prompt="ConfDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Current_date" prompt="Current_date?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="EnvName" prompt="EnvName?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value="local"/>
+      <contextParameter comment="" name="ErrorDirPath" prompt="ErrorDirPath?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LookupDir" prompt="LookupDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Daily" prompt="Repos_Daily?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Weekly" prompt="Repos_Weekly?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCDatabase" prompt="SRCDatabase?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPassword" prompt="SRCPassword?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPort" prompt="SRCPort?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCSchema" prompt="SRCSchema?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCServer" prompt="SRCServer?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCUser" prompt="SRCUser?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+    </context>
+    <context confirmationNeeded="false" name="dev">
+      <contextParameter comment="" name="ConfDir" prompt="ConfDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Current_date" prompt="Current_date?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="EnvName" prompt="EnvName?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value="local"/>
+      <contextParameter comment="" name="ErrorDirPath" prompt="ErrorDirPath?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LookupDir" prompt="LookupDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Daily" prompt="Repos_Daily?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Weekly" prompt="Repos_Weekly?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCDatabase" prompt="SRCDatabase?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPassword" prompt="SRCPassword?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPort" prompt="SRCPort?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCSchema" prompt="SRCSchema?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCServer" prompt="SRCServer?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCUser" prompt="SRCUser?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+    </context>
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" name="ConfDir" prompt="ConfDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Current_date" prompt="Current_date?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="EnvName" prompt="EnvName?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value="local"/>
+      <contextParameter comment="" name="ErrorDirPath" prompt="ErrorDirPath?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LookupDir" prompt="LookupDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Daily" prompt="Repos_Daily?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Weekly" prompt="Repos_Weekly?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCDatabase" prompt="SRCDatabase?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPassword" prompt="SRCPassword?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPort" prompt="SRCPort?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCSchema" prompt="SRCSchema?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCServer" prompt="SRCServer?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCUser" prompt="SRCUser?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+    </context>
+    <context confirmationNeeded="false" name="local">
+      <contextParameter comment="" name="ConfDir" prompt="ConfDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Current_date" prompt="Current_date?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="EnvName" prompt="EnvName?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value="local"/>
+      <contextParameter comment="" name="ErrorDirPath" prompt="ErrorDirPath?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LogDir" prompt="LogDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="LookupDir" prompt="LookupDir?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Daily" prompt="Repos_Daily?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="Repos_Weekly" prompt="Repos_Weekly?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCDatabase" prompt="SRCDatabase?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPassword" prompt="SRCPassword?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCPort" prompt="SRCPort?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCSchema" prompt="SRCSchema?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCServer" prompt="SRCServer?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+      <contextParameter comment="" name="SRCUser" prompt="SRCUser?" promptNeeded="false" repositoryContextId="_sOYQkP0JEeeYY-k2uMgm6w" type="id_String" value=""/>
+    </context>
+    <parameters>
+      <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" show="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" show="false"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/talend/studio/Talend-All-r63143-V4.2.2/workspace/in.csv&quot;" show="false"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="ORACLE_10" show="false"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" show="false"/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true" show="false"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+      <routinesParameter id="_yg7ZoAl1EeGykPupX4KBXg" name="DataOperation"/>
+      <routinesParameter id="_yhezQAl1EeGykPupX4KBXg" name="Mathematical"/>
+      <routinesParameter id="_yhidoAl1EeGykPupX4KBXg" name="Numeric"/>
+      <routinesParameter id="_yhlg8Al1EeGykPupX4KBXg" name="Relational"/>
+      <routinesParameter id="_yiCz8Al1EeGykPupX4KBXg" name="SQLike"/>
+      <routinesParameter id="_yhpLUAl1EeGykPupX4KBXg" name="StringHandling"/>
+      <routinesParameter id="_yhsOoAl1EeGykPupX4KBXg" name="TalendDataGenerator"/>
+      <routinesParameter id="_yhv5AAl1EeGykPupX4KBXg" name="TalendDate"/>
+      <routinesParameter id="_yh_woAl1EeGykPupX4KBXg" name="TalendString"/>
+      <routinesParameter id="_hRg4cPxbEeeg5_nfDGzV4Q" name="DQTechnical"/>
+      <routinesParameter id="_hP35sPxbEeeg5_nfDGzV4Q" name="DataMasking"/>
+      <routinesParameter id="_hQ3YMPxbEeeg5_nfDGzV4Q" name="DataQualityDependencies"/>
+      <routinesParameter id="_hQkdQPxbEeeg5_nfDGzV4Q" name="DataQuality"/>
+      <routinesParameter id="_hRPLoPxbEeeg5_nfDGzV4Q" name="DqStringHandling"/>
+      <routinesParameter id="_hPll0PxbEeeg5_nfDGzV4Q" name="TalendStringUtil"/>
+    </parameters>
+    <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="(String)globalMap.get(&quot;LogMsg&quot;)"/>
+      <elementParameter field="TEXT" name="CODE" value="42"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="6"/>
+      <elementParameter field="TEXT" name="LABEL" value="Log the Warning"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tWarn_1"/>
+    </node>
+    <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;Job die process complete&quot;"/>
+      <elementParameter field="TEXT" name="CODE" value="4"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+      <elementParameter field="CHECK" name="EXIT_JVM" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="Exit the Job"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="out7" name="tDie_1">
+        <column comment="" key="false" length="-1" name="ErrorText" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
+      <elementParameter field="TEXT" name="MESSAGE" value="&quot;Job die process begins&quot;"/>
+      <elementParameter field="TEXT" name="CODE" value="42"/>
+      <elementParameter field="CLOSED_LIST" name="PRIORITY" value="6"/>
+      <elementParameter field="TEXT" name="LABEL" value="Job_Die_Log"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tWarn_3"/>
+    </node>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="TRIGGER_INPUT_1" offsetLabelX="0" offsetLabelY="0" source="TRIGGER_INPUT_1" target="tWarn_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_1" offsetLabelX="0" offsetLabelY="0" source="tWarn_1" target="tWarn_3">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDie_1" offsetLabelX="0" offsetLabelY="0" source="tDie_1" target="TRIGGER_OUTPUT_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk5" show="false"/>
+    </connection>
+    <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tWarn_3" offsetLabelX="0" offsetLabelY="0" source="tWarn_3" target="tDie_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+    </connection>
+    <note opaque="false" posX="64" posY="256" sizeHeight="289" sizeWidth="1121" text="">
+      <elementParameter field="COLOR" name="NOTE_COLOR" value="0;0;0"/>
+      <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
+      <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
+      <elementParameter field="TEXT" name="NOTE_FONT" value="Arial"/>
+      <elementParameter field="TEXT" name="FONT_SIZE" value="14"/>
+      <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
+      <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="0;128;0"/>
+    </note>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_INPUT_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+      <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" value="false" show="false"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+      <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" value="false" show="false"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+      <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" value="false" show="false"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_OUTPUT_1" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+      <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" value="false" show="false"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_3" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="TRIGGER_INPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320" input="true" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+      <elementParameter field="CHECK" name="START" value="true" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+    <jobletNodes componentName="TRIGGER_OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="864" posY="320" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+      <elementParameter field="CHECK" name="START" value="false" show="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray innerContent="89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000032C49444154789CC5975B4853711CC7BF1114410F3D48F510D45BD09B19E483B76A1084D9249D9897D49A9754EAC9A07A28A3B7E84AE55113350DCD4B8E5444F38268B99CBD88D10531422B2B3412F421EADBEF781CD8B6B3EDCC5983CF7E3B3BDB7E9FF3FB7FCF390C24F13F597C0A0F0F7FAFE27CF35F6E07FC0311FBF6CCE554623E5B01A34CA18C34EDFE955C81F280048C905D8FED795598CFAF06CF7781975E8045FD604E23682D0553CAF0D6F0121821AF1AB367EAC13BAFC1AA0F60D9047875143CFB0CCC7A02669483490A4602CA8080E5B81D7D1D2CB915E0CD5760E334D839073EFE0A968CCB2446C0DCA760429D4C4296254E41845E53DD0CF814A8414F619DD6D0F60D1CFC09B6CE6853B8FC123CD50DC637C91444E0A8826623021E71FDA2B5121F0B44E0864CE0C124D8F405AC9D026FBD012F4816AC9DE0E1063055041215F41A5902BF0432ABD09B5B035E7480D7C6C0DBD2F8BAC814CBF84F4B10532403A65A30DDC70402CEC0B14A5CB1DE07F365D44512BA737609DF73B0B00F3CDE0EC63E0263CAB50C1C519018F40CC8634D6639E633E4144C6F93D477688D936CE0213933A224A0C9D23C45C1ACB7A30E3803F2D81893BDA5E6440998269330CB721C7C28475D051E28D5469FA6602156C136A3A7A15F02533F2698DA14C6B08490FD96BB78671591938A469682DF6605E37B15348429D810F4EB80B3B95A97A61122AC8F2B8165F97A4BF362A147D81AB40C389B378EDDA3AF2392C6EB8422A152D8B1E20C1869EE22922B3884CD016720D0E64B026B851C41F12B03A12633D58F7AC39FC60E07A32593D443F66FF2980155A05D6EA47D9231FB24393A4D8ECF909FE6C8EF0BC605A47A44DD171919FDD92D036A83D512181EFE1B75BF5B06822560B76B02523934E4194F02869740BD2C7B12181CD404A4BA3130A061D95944E9D962580072CBC5B0E0F08E2AD0DFAF8F9BC0E20BFF9620DAD712F4F4681390AA8BDB120453A0AB4B1390AACB4A32E053A0A3431390AA4BC019F047A0AD4D1390BA486BAB3BAB9A019B4D1390AACBAA66A0B9591390AA8B6E069CD7FC5DF1058BB86E3B05BCFDD56A6860B429D44C15E7F5DF75DB63065C7EB05BC5CBF64AFF9CB6B865E07FF1073F036B3DCBCB274D0000000049454E44AE426082"/>
+</xmi:XMI>

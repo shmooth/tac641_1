@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2sN7ELbaEeiY8dopxs2xuw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_2sN7EbbaEeiY8dopxs2xuw" comment="" name="table_exists" prompt="table_exists?" promptNeeded="false" type="id_Boolean" value="true"/>
+  <contextParameter xmi:id="_2sN7ErbaEeiY8dopxs2xuw" comment="" name="sftp_host" prompt="sftp_host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7E7baEeiY8dopxs2xuw" comment="" name="sftp_username" prompt="sftp_username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7FLbaEeiY8dopxs2xuw" comment="" name="sftp_password" prompt="sftp_password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_2sN7FbbaEeiY8dopxs2xuw" comment="" name="sftp_port" prompt="sftp_port?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_2sN7FrbaEeiY8dopxs2xuw" comment="" name="sftp_local_path" prompt="sftp_local_path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7F7baEeiY8dopxs2xuw" comment="" name="sftp_remote_path" prompt="sftp_remote_path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7GLbaEeiY8dopxs2xuw" comment="" name="sftp_file_mask" prompt="sftp_file_mask?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7GbbaEeiY8dopxs2xuw" comment="" name="s3_access_key" prompt="s3_access_key?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_2sN7GrbaEeiY8dopxs2xuw" comment="" name="s3_secret_key" prompt="s3_secret_key?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_2sN7G7baEeiY8dopxs2xuw" comment="" name="s3_region" prompt="s3_region?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7HLbaEeiY8dopxs2xuw" comment="" name="s3_bucket" prompt="s3_bucket?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7HbbaEeiY8dopxs2xuw" comment="" name="s3_key" prompt="s3_key?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7HrbaEeiY8dopxs2xuw" comment="" name="redshift_host" prompt="redshift_host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7H7baEeiY8dopxs2xuw" comment="" name="redshift_port" prompt="redshift_port?" promptNeeded="false" type="id_Integer" value=""/>
+  <contextParameter xmi:id="_2sN7ILbaEeiY8dopxs2xuw" comment="" name="redshift_database" prompt="redshift_database?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7IbbaEeiY8dopxs2xuw" comment="" name="redshift_schema" prompt="redshift_schema?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7IrbaEeiY8dopxs2xuw" comment="" name="redshift_username" prompt="redshift_username?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7I7baEeiY8dopxs2xuw" comment="" name="redshift_password" prompt="redshift_password?" promptNeeded="false" type="id_Password" value=""/>
+  <contextParameter xmi:id="_2sN7JLbaEeiY8dopxs2xuw" comment="" name="lookup_hist_file" prompt="lookup_hist_file?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7JbbaEeiY8dopxs2xuw" comment="" name="archive_file_mask" prompt="archive_file_mask?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7JrbaEeiY8dopxs2xuw" comment="" name="local_extract_dir" prompt="local_extract_dir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7J7baEeiY8dopxs2xuw" comment="" name="filelist_s3put_file_mask" prompt="filelist_s3put_file_mask?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7KLbaEeiY8dopxs2xuw" comment="" name="s3_parquetpath" prompt="s3_parquetpath" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7KbbaEeiY8dopxs2xuw" comment="" name="redshift_s3_location" prompt="redshift_s3_location?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7KrbaEeiY8dopxs2xuw" comment="" name="date_lag" prompt="date_lag?" promptNeeded="true" type="id_Integer" value="0"/>
+  <contextParameter xmi:id="_2sN7K7baEeiY8dopxs2xuw" comment="" name="source_file_name" prompt="source_file_name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7LLbaEeiY8dopxs2xuw" comment="" name="namenode_uri" prompt="namenode_uri?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7LbbaEeiY8dopxs2xuw" comment="" name="partition_tablename" prompt="partition_tablename?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7LrbaEeiY8dopxs2xuw" comment="" name="hist_load" prompt="hist_load?" promptNeeded="true" type="id_Boolean" value="false"/>
+  <contextParameter xmi:id="_2sN7L7baEeiY8dopxs2xuw" comment="" name="local_log_dir" prompt="local_log_dir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7MLbaEeiY8dopxs2xuw" comment="" name="s3_log_dir" prompt="s3_log_dir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7MbbaEeiY8dopxs2xuw" comment="" name="log_filemask" prompt="log_filemask?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7MrbaEeiY8dopxs2xuw" comment="" name="MasterJb_Name" prompt="MasterJb_Name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2sN7M7baEeiY8dopxs2xuw" comment="" name="redshift_tableprefix" prompt="redshift_tableprefix?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>

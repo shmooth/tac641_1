@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_2rmQALbaEeiY8dopxs2xuw" confirmationNeeded="false" name="local">
+  <contextParameter xmi:id="_2rmQAbbaEeiY8dopxs2xuw" comment="" name="EnvName" prompt="EnvName?" promptNeeded="false" type="id_String" value="local"/>
+  <contextParameter xmi:id="_2rmQArbaEeiY8dopxs2xuw" comment="" name="SRCServer" prompt="SRCServer?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQA7baEeiY8dopxs2xuw" comment="" name="SRCPort" prompt="SRCPort?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQBLbaEeiY8dopxs2xuw" comment="" name="SRCDatabase" prompt="SRCDatabase?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQBbbaEeiY8dopxs2xuw" comment="" name="SRCSchema" prompt="SRCSchema?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQBrbaEeiY8dopxs2xuw" comment="" name="SRCUser" prompt="SRCUser?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQB7baEeiY8dopxs2xuw" comment="" name="SRCPassword" prompt="SRCPassword?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQCLbaEeiY8dopxs2xuw" comment="" name="ErrorDirPath" prompt="ErrorDirPath?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQCbbaEeiY8dopxs2xuw" comment="" name="LookupDir" prompt="LookupDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQCrbaEeiY8dopxs2xuw" comment="" name="ConfDir" prompt="ConfDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQC7baEeiY8dopxs2xuw" comment="" name="LogDir" prompt="LogDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQDLbaEeiY8dopxs2xuw" comment="" name="Repos_Daily" prompt="Repos_Daily?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQDbbaEeiY8dopxs2xuw" comment="" name="Current_date" prompt="Current_date?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQDrbaEeiY8dopxs2xuw" comment="" name="Repos_Weekly" prompt="Repos_Weekly?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQD7baEeiY8dopxs2xuw" comment="" name="Email_User" prompt="Email_User?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQELbaEeiY8dopxs2xuw" comment="" name="Email_Pass" prompt="Email_Pass?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQEbbaEeiY8dopxs2xuw" comment="" name="Email_Notify" prompt="Email_Notify?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQErbaEeiY8dopxs2xuw" comment="" name="Email_From" prompt="Email_From?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQE7baEeiY8dopxs2xuw" comment="" name="Email_CC" prompt="Email_CC?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQFLbaEeiY8dopxs2xuw" comment="" name="Email_Bcc" prompt="Email_Bcc?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQFbbaEeiY8dopxs2xuw" comment="" name="Email_Smtp" prompt="Email_Smtp?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQFrbaEeiY8dopxs2xuw" comment="" name="Email_Port" prompt="Email_Port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQF7baEeiY8dopxs2xuw" comment="" name="Filemask" prompt="Filemask?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQGLbaEeiY8dopxs2xuw" comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQGbbaEeiY8dopxs2xuw" comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQGrbaEeiY8dopxs2xuw" comment="" name="BucketName" prompt="BucketName?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQG7baEeiY8dopxs2xuw" comment="" name="LocalDir" prompt="LocalDir?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQHLbaEeiY8dopxs2xuw" comment="" name="Repos_Monthly" prompt="Repos_Monthly?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQHbbaEeiY8dopxs2xuw" comment="" name="TRGAccessKey" prompt="TRGAccessKey?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQHrbaEeiY8dopxs2xuw" comment="" name="TRGSecretKey" prompt="TRGSecretKey?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQH7baEeiY8dopxs2xuw" comment="" name="TRGBucketName" prompt="TRGBucketName?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_2rmQILbaEeiY8dopxs2xuw" comment="" name="TRGS3Path" prompt="TRGS3Path?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
